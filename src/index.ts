@@ -36,6 +36,7 @@ const startServer = async () => {
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
+    introspection: true,
   });
 
   // 6
