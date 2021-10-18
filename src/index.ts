@@ -22,7 +22,7 @@ const startServer = async () => {
     },
   };
 
-  // 5
+  // 5 missy comment
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
